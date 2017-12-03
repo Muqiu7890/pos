@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html" charset="utf-8">
+	<title>写给技术小白的HTML初级教程</title>
+	<link rel="stylesheet" type="text/css" href="xiao.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="html.html">HTML</a>
+			<a href="https://www.w3.org/">W3C</a>
+			<a href="">Help</a>
+		
+		</nav>
+	</header>
+	<div id="side">
+		<ul>
+		<li><a>HTML简介</a></li>
+		<li><a>HTML标签</a></li>
+		<li><a>HTML属性</a></li>
+		<li><a>HTML链接</a></li>
+        </ul>
+	</div>
+	<div id="all">
+	<div class="part">
+	<h1>什么是HTML？</h1>
+	<p>HTML，超文本标记语言，标准通用标记语言下的一个应用。“ 超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。超文本标记语言的结构包括 “头”部分（Head）、和“主体”部分（Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的 具体内容。<br>
+	HTML很容易，相信你可以很愉快的学会它！
+    </p>
+    <img src="image/html.jpg" alt="A html pic">
+	<h3>简单的实例</h3>
+	<pre class="code">
+		&lt;html&gt;
+		&lt;head&gt;
+		&lt;title&gt;简单实例&lt;&frasl;title&gt;
+		&lt;&frasl;head&gt;
+		&lt;body&gt;
+		&lt;h1&gt;我的第一个页面&lt;&frasl;h1&gt;
+		&lt;p&gt;我的第一个段落&lt;&frasl;p&gt;
+		&lt;&frasl;body&gt;
+		&lt;&frasl;html&gt;
+	</pre>
+	<h3>上例解释</h3>
+	<ul>
+         <li>&lt;html&gt; 与 &lt;/html&gt; 之间的文本描述网页</li>
+         <li>&lt;head&gt; 与 &lt;/head&gt; 之间的文本描述网页的头部</li>
+         <li>&lt;title&gt; 与 &lt;/title&gt; 之间的文本是网页的名称</li>
+         <li>&lt;body&gt; 与 &lt;/body&gt; 之间的文本是可见的页面内容</li>
+         <li>&lt;h1&gt; 与 &lt;/h1&gt; 之间的文本被显示为标题</li>
+         <li>&lt;p&gt; 与 &lt;/p&gt; 之间的文本被显示为段落</li>
+    </ul>
+    </div>
+    <div class="part">
+    <h2>HTML 标签</h2>
+    <p>HTML 标记标签通常被称为 HTML 标签 (HTML tag)。</p>
+
+    <ol>
+         <li>HTML 标签是由<em>尖括号</em>包围的关键词，比如 &lt;html&gt;</li>
+         <li>HTML 标签通常是<em>成对出现</em>的，比如 &lt;b&gt; 和 &lt;/b&gt;</li>
+         <li>标签对中的第一个标签是<em>开始标签</em>，第二个标签是<em>结束标签</em></li>
+         <li>开始和结束标签也被称为<em>开放标签</em>和<em>闭合标签</em></li>
+    </ol>
+    </div>
+    <div class="part">
+    <h2>HTML 属性</h2>
+    <p>属性用来指定一个元素的附加信息。其写法为属性名后加一个等号，然后是用双引号括起来的属性值</p>
+    <h3>实例</h3>
+    <pre class="code">
+    	&lt;style&nbsp;type="text/css"&gt;
+    	&lt;a&nbsp;href="inlr.html"&gt;
+    	&lt;img&nbsp;src="photo.gif"&gt;
+    </pre>
+    <h3>上例解释</h3>
+    <ul>
+    	<li>type属性指定使用哪一种样式语言</li>
+    	<li>href属性告诉我们超链接的目标文件</li>
+    	<li>src属性指定一个img标记显示的图像的文件名</li>
+    </ul>
+    <p>了解更多属性，请点击：<a href="">HTML标准属性</a></p>
+    </div>
+    
+    <h2>HTML 链接</h2>
+    <p>HTML使用超级链接与网络上的另一个文档相连。几乎可以在所有的网页中找到链接。点击链接可以从一张页面跳转到另一张页面。</p>
+    <p>我们通过&lt;a&gt;标签在HTML中创建链接<br>有两种使用&lt;a&gt;标签的方法。</p>
+    <ol>
+    	<li>通过使用href属性创建指向另一个文档的链接</li>
+    	<li>通过使用name属性创建文档内的标签</li>
+    </ol>
+    <h3>href属性实例</h3>
+    <pre class="code">
+    	&lt;a&nbsp;href="inlr.html"&gt;
+    </pre>
+    <p>在链接中使用target属性定义被链接的文档在何处显示。</p>
+    <h3>未完待续。。。</h3>
+    <h2>相信你可以学好的！！！</h2>
+    
+</div>
+</body>
+</html>
