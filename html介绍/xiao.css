@@ -1,0 +1,41 @@
+body{
+	background-color:#F8F8FF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    
+}
+header{
+	background-image: url(image/html.jpg);
+	background-repeat: no-repeat;
+}
+nav{
+	background-color:#f6f5ec;
+	margin:10px 10px 0px 0px;
+	height: 20px;
+}
+nav a{
+	margin: 15px;
+}
+.part{
+	border-bottom: 1px solid #aaa;
+}
+#side{
+    border: 1px solid gray;
+	float: right;
+	font-size: 130%;
+	margin: 80px 10px 20px 15px;
+	padding: 15px;
+	width:200px;
+}
+#side a{
+		padding: 28px 10px 28px 10px ;
+}
+#all{
+	width:1000px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.code{
+	padding-top: 10px;
+	background-color:#f6f5ec;
+
+}
